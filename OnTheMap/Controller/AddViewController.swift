@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  AddViewController.swift
 //  OnTheMap
 //
 //  Created by Lee, Steve on 10/23/18.
@@ -8,18 +8,28 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class AddViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBOutlet weak var locationTextField: UITextField!
+    @IBOutlet weak var websiteTextField: UITextField!
+    @IBOutlet weak var findLocationButton: UIButton!
+    
+    
+    @IBAction func findLocationButtonPressed(_ sender: Any) {
+    }
+    
+    
 }
+
+
 

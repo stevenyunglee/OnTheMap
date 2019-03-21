@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72F7CFF21816E320077F524 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F7CFE21816E320077F524 /* GCDBlackBox.swift */; };
+		C72F7D012181AABD0077F524 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F7D002181AABD0077F524 /* TabViewController.swift */; };
+		C7415F942180354400C78FA2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F932180354400C78FA2 /* Client.swift */; };
+		C7415F962180355B00C78FA2 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F952180355B00C78FA2 /* Convenience.swift */; };
+		C7415F982180356800C78FA2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F972180356800C78FA2 /* Constants.swift */; };
+		C7415F9C2180361300C78FA2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F9B2180361300C78FA2 /* LogInViewController.swift */; };
+		C7415F9E21803EAD00C78FA2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F9D21803EAD00C78FA2 /* SearchViewController.swift */; };
+		C7415FA021803F2200C78FA2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7415F9F21803F2200C78FA2 /* AddViewController.swift */; };
+		C769384E218BCB5A007F02D3 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769384D218BCB5A007F02D3 /* Students.swift */; };
+		C771D41A2199297B00ADC2DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771D4192199297B00ADC2DF /* Extensions.swift */; };
+		C771D41C2199312300ADC2DF /* StudentsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771D41B2199312300ADC2DF /* StudentsInformation.swift */; };
+		C784E36D218A99590074EB90 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784E36C218A99590074EB90 /* NavigationController.swift */; };
 		C7EB82D621802FE3007389CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB82D521802FE3007389CE /* AppDelegate.swift */; };
-		C7EB82D821802FE3007389CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB82D721802FE3007389CE /* FirstViewController.swift */; };
-		C7EB82DA21802FE3007389CE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB82D921802FE3007389CE /* SecondViewController.swift */; };
+		C7EB82D821802FE3007389CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB82D721802FE3007389CE /* MapViewController.swift */; };
+		C7EB82DA21802FE3007389CE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB82D921802FE3007389CE /* ListViewController.swift */; };
 		C7EB82DD21802FE3007389CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EB82DB21802FE3007389CE /* Main.storyboard */; };
 		C7EB82DF21802FE3007389CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EB82DE21802FE3007389CE /* Assets.xcassets */; };
 		C7EB82E221802FE3007389CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EB82E021802FE3007389CE /* LaunchScreen.storyboard */; };
@@ -35,10 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C72F7CFE21816E320077F524 /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		C72F7D002181AABD0077F524 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		C7415F932180354400C78FA2 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		C7415F952180355B00C78FA2 /* Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		C7415F972180356800C78FA2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C7415F9B2180361300C78FA2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C7415F9D21803EAD00C78FA2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C7415F9F21803F2200C78FA2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C769384D218BCB5A007F02D3 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		C771D4192199297B00ADC2DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C771D41B2199312300ADC2DF /* StudentsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsInformation.swift; sourceTree = "<group>"; };
+		C784E36C218A99590074EB90 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		C7EB82D221802FE3007389CE /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EB82D521802FE3007389CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7EB82D721802FE3007389CE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C7EB82D921802FE3007389CE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C7EB82D721802FE3007389CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C7EB82D921802FE3007389CE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C7EB82DC21802FE3007389CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7EB82DE21802FE3007389CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7EB82E121802FE3007389CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C771D4182199295C00ADC2DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C771D4192199297B00ADC2DF /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C7EB82C921802FE3007389CE = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				C7EB82D521802FE3007389CE /* AppDelegate.swift */,
-				C7EB82D721802FE3007389CE /* FirstViewController.swift */,
-				C7EB82D921802FE3007389CE /* SecondViewController.swift */,
-				C7EB82DB21802FE3007389CE /* Main.storyboard */,
-				C7EB82DE21802FE3007389CE /* Assets.xcassets */,
-				C7EB82E021802FE3007389CE /* LaunchScreen.storyboard */,
+				C771D4182199295C00ADC2DF /* Extensions */,
+				C7EB830521802FFF007389CE /* Model */,
+				C7EB83062180300F007389CE /* View */,
+				C7EB830721803027007389CE /* Controller */,
 				C7EB82E321802FE3007389CE /* Info.plist */,
+				C7EB83082180304B007389CE /* Assets */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -126,6 +158,58 @@
 				C7EB82F921802FE3007389CE /* Info.plist */,
 			);
 			path = OnTheMapUITests;
+			sourceTree = "<group>";
+		};
+		C7EB830521802FFF007389CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB830921803085007389CE /* Clients */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7EB83062180300F007389CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7EB830721803027007389CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7415F9B2180361300C78FA2 /* LogInViewController.swift */,
+				C72F7D002181AABD0077F524 /* TabViewController.swift */,
+				C7EB82D921802FE3007389CE /* ListViewController.swift */,
+				C7EB82D721802FE3007389CE /* MapViewController.swift */,
+				C784E36C218A99590074EB90 /* NavigationController.swift */,
+				C7415F9F21803F2200C78FA2 /* AddViewController.swift */,
+				C7415F9D21803EAD00C78FA2 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7EB83082180304B007389CE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB82DB21802FE3007389CE /* Main.storyboard */,
+				C7EB82DE21802FE3007389CE /* Assets.xcassets */,
+				C7EB82E021802FE3007389CE /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C7EB830921803085007389CE /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				C7415F932180354400C78FA2 /* Client.swift */,
+				C7415F952180355B00C78FA2 /* Convenience.swift */,
+				C7415F972180356800C78FA2 /* Constants.swift */,
+				C72F7CFE21816E320077F524 /* GCDBlackBox.swift */,
+				C769384D218BCB5A007F02D3 /* Students.swift */,
+				C771D41B2199312300ADC2DF /* StudentsInformation.swift */,
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +346,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7EB82DA21802FE3007389CE /* SecondViewController.swift in Sources */,
+				C72F7D012181AABD0077F524 /* TabViewController.swift in Sources */,
+				C771D41C2199312300ADC2DF /* StudentsInformation.swift in Sources */,
+				C7415FA021803F2200C78FA2 /* AddViewController.swift in Sources */,
+				C7EB82DA21802FE3007389CE /* ListViewController.swift in Sources */,
+				C769384E218BCB5A007F02D3 /* Students.swift in Sources */,
+				C7415F962180355B00C78FA2 /* Convenience.swift in Sources */,
+				C72F7CFF21816E320077F524 /* GCDBlackBox.swift in Sources */,
 				C7EB82D621802FE3007389CE /* AppDelegate.swift in Sources */,
-				C7EB82D821802FE3007389CE /* FirstViewController.swift in Sources */,
+				C7415F9C2180361300C78FA2 /* LogInViewController.swift in Sources */,
+				C784E36D218A99590074EB90 /* NavigationController.swift in Sources */,
+				C7415F942180354400C78FA2 /* Client.swift in Sources */,
+				C7415F9E21803EAD00C78FA2 /* SearchViewController.swift in Sources */,
+				C7EB82D821802FE3007389CE /* MapViewController.swift in Sources */,
+				C7415F982180356800C78FA2 /* Constants.swift in Sources */,
+				C771D41A2199297B00ADC2DF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SearchViewController.swift
 //  OnTheMap
 //
 //  Created by Lee, Steve on 10/23/18.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class SearchViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
+
 
